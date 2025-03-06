@@ -20,7 +20,7 @@ class FD():
             'momentum': 0.9
         }
         self.alg_hparams = {
-            'ACCUP': {'pre_learning_rate': 0.001, 'learning_rate': 0.0003, 'filter_K': 100, 'k_neighor': 3, 'tau': 1, 'lamb': 1.0, 'temperature': 0.6},
+            'ACCUP': {'pre_learning_rate': 0.001, 'learning_rate': 0.0003, 'filter_K': 100, 'tau': 1, 'temperature': 0.6},
             'NoAdap': {'pre_learning_rate': 0.001}
         }
 
@@ -39,7 +39,7 @@ class EEG():
         }
 
         self.alg_hparams = {
-            'ACCUP': {'pre_learning_rate': 0.001, 'learning_rate': 1e-5, 'filter_K': 50, 'k_neighor': 5, 'tau':50, 'lamb':1.0, 'temperature':0.3},
+            'ACCUP': {'pre_learning_rate': 0.001, 'learning_rate': 1e-5, 'filter_K': 50, 'tau':50, 'temperature':0.3},
             'NoAdap' : {'pre_learning_rate': 0.001}
         }
 
@@ -58,6 +58,6 @@ class HAR():
             'momentum':0.9
         }
         self.alg_hparams = {
-            'ACCUP': {'pre_learning_rate': 0.001, 'learning_rate': 0.0003, 'filter_K': 10, 'k_neighor': 5, 'tau':20, 'lamb': 0.1, 'temperature':0.7},
+            'ACCUP': {'pre_learning_rate': 0.001, 'learning_rate': 0.0003, 'filter_K': 10, 'tau':20, 'temperature':0.7},
             'NoAdap': {'pre_learning_rate': 0.001}
         }
